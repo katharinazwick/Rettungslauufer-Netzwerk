@@ -1,5 +1,5 @@
-import {loadContent} from "./script.js";
-import {buttonNames} from "./inputText.js";
+import {loadContent} from "./loadConent.js";
+import {buttonNames} from "./texts/buttonNames.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll('.nav-btn');

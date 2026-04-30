@@ -1,0 +1,33 @@
+export function renderAbout(parent) {
+    const texts = [
+        "Oder besser: wer wollen wir werden?",
+        "Mein Ziel ist es, Ehrenämter und hauptberufliche Kräfte aus dem Rettungsdienst sowie dem medizinisch-technischen Dienst zu vereinen.",
+        "Unter dem Konzept Gentle Running Club möchte ich mich mit euch unverbindlich wöchentlich zum gemeinsamen Laufen treffen.",
+        "Dabei soll eine Gemeinschaft aus Menschen entstehen, die unterschiedlich, aber doch ähnlich sind.",
+        "Je mehr Leute kommen, desto mehr unterschiedliche Geschwindigkeiten haben wir – und jeder kann auf seine Kosten kommen.",
+        "Zusätzlich besteht die Möglichkeit, gemeinsam an Laufveranstaltungen oder anderen Events teilzunehmen.",
+    ];
+
+    texts.forEach(t => {
+        const p = document.createElement("p");
+        p.textContent = t;
+        parent.appendChild(p);
+    });
+
+    //letzter Absatz
+    const p = document.createElement("p");
+
+    p.appendChild(document.createTextNode("Vielleicht bist du dabei – und wir bauen gemeinsam ein "));
+
+    const strong = document.createElement("strong");
+    strong.textContent = "Rettungsläufer Netzwerk";
+
+    p.appendChild(strong);
+
+    p.appendChild(document.createTextNode(" auf!"));
+//leerzeile
+    strong.textContent = "Das erste Treffen findet am 01.01.2026 statt!";
+    p.appendChild((strong));
+
+    parent.appendChild(p);
+}

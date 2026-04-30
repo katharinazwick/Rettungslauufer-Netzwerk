@@ -57,7 +57,6 @@ main {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     transition: all 0.4s ease;
-
     text-align: center;
 }
 
@@ -65,3 +64,68 @@ h2 {
     color: #ff2e63;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(145deg, #1f6feb, #ff2e63);
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 46, 99, 0.8);
+}
+
+/*ckeckbox*/
+.privacy-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.privacy-wrapper a {
+    color: #ff2e63;
+    text-decoration: none;
+}
+
+.privacy-wrapper input {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+footer {
+    color: #ff2e63;
+}
+
+footer a {
+    color: #ff2e63;
+    text-decoration: none;
+}

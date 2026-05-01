@@ -1,4 +1,4 @@
-import {checkContact} from "../contact/checkContact.js";
+import {checkContact} from "./checkContact.js";
 
 export function renderContact(parent) {
     const form = document.createElement("div");

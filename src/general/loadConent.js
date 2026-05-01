@@ -1,9 +1,9 @@
-import {buttonNames} from "./texts/buttonNames.js";
-import {renderAbout} from "./texts/renderAbout.js";
-import {renderInfo} from "./texts/renderInfo.js";
-import {renderNextEvent} from "./texts/renderNextEvent.js";
-import {renderSimple} from "./texts/renderSimple.js";
-import {renderContact} from "./texts/renderContact.js";
+import {buttonNames} from "./buttonNames.js";
+import {renderAbout} from "./renderAbout.js";
+import {renderInfo} from "./renderInfo.js";
+import {renderNextEvent} from "../nextEvent/renderNextEvent.js";
+import {renderSimple} from "../previouslyEvent/renderSimple.js";
+import {renderContact} from "../contact/renderContact.js";
 
 export function loadContent(field) {
     const content = document.getElementById("content");

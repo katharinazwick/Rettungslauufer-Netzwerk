@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f578d-c9c3-460a-a9b3-82db39bad79f" name="Changes" comment="clean">
-      <change afterPath="$PROJECT_DIR$/src/nextEvent/nextEvents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nextEvent/renderCalender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="392f578d-c9c3-460a-a9b3-82db39bad79f" name="Changes" comment="fit design on calender">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loadConent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/loadConent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/buttonNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/buttonNames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/renderAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/renderAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/renderContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/renderContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/renderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/renderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/renderNextEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextEvent/renderNextEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/texts/renderSimple.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/previouslyEvent/renderSimple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/renderAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/renderAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nextEvent/renderNextEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextEvent/renderNextEvent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +106,7 @@
       <workItem from="1777486676001" duration="953000" />
       <workItem from="1777487652202" duration="200000" />
       <workItem from="1777535633819" duration="11743000" />
-      <workItem from="1777628309030" duration="2513000" />
+      <workItem from="1777628309030" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -197,7 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777628357432</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new order structure">
+      <option name="closed" value="true" />
+      <created>1777630886493</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777630886493</updated>
+    </task>
+    <task id="LOCAL-00012" summary="info input for next event">
+      <option name="closed" value="true" />
+      <created>1777630899133</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1777630899133</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fit design on calender">
+      <option name="closed" value="true" />
+      <created>1777630913507</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777630913507</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +256,9 @@
     <MESSAGE value="lint" />
     <MESSAGE value="include box" />
     <MESSAGE value="clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean" />
+    <MESSAGE value="new order structure" />
+    <MESSAGE value="info input for next event" />
+    <MESSAGE value="fit design on calender" />
+    <option name="LAST_COMMIT_MESSAGE" value="fit design on calender" />
   </component>
 </project>

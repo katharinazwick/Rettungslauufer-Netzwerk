@@ -1,4 +1,4 @@
-import { nextEvents } from "./nextEvents.js";
+import {nextEvents} from "./nextEvents.js";
 import {renderCalendar} from "./renderCalender.js";
 
 export function renderNextEvent(parent) {
@@ -12,20 +12,23 @@ export function renderNextEvent(parent) {
         {
             display: "flex",
             flexDirection: "rows",
+            gap: "20px",
+            alignItems: "flex-start"
         })
 
     // ⬅️ Linke Seite (Events)
     const left = document.createElement("div");
     left.classList.add("events-left");
-    Object.assign(left.style,{
-        width: "80%",
+    Object.assign(left.style, {
+        //flex: 1
     })
 
     // ➡️ Rechte Seite (Kalender)
     const right = document.createElement("div");
     right.classList.add("events-right");
-    Object.assign(right.style,{
-        width: "20%",
+    Object.assign(right.style, {
+       // width: "320px",
+        //minWidth: "280px"
     })
 
     // 📅 Platzhalter Kalender

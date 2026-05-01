@@ -170,3 +170,20 @@ footer a {
 .calendar-header button:hover {
     background: rgba(255,255,255,0.2);
 }
+.events-left {
+    flex: 1;
+}
+
+.events-right {
+    flex: 0 0 320px; /* feste Kalenderbreite */
+}
+@media (max-width: 768px) {
+    .events-layout {
+        flex-direction: column;
+    }
+
+    .events-right {
+        width: 100%;
+        flex: none;
+    }
+}

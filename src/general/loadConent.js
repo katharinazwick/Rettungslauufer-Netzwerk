@@ -2,7 +2,7 @@ import {buttonNames} from "./buttonNames.js";
 import {renderAbout} from "./renderAbout.js";
 import {renderInfo} from "./renderInfo.js";
 import {renderNextEvent} from "../nextEvent/renderNextEvent.js";
-import {renderSimple} from "../previouslyEvent/renderSimple.js";
+import {renderPreviouslyEvent} from "../previouslyEvent/renderPriviouslyEvent.js";
 import {renderContact} from "../contact/renderContact.js";
 
 export function loadContent(field) {
@@ -21,6 +21,6 @@ export function loadContent(field) {
     if (index === 0) renderAbout(content);
     if (index === 1) renderInfo(content);
     if (index === 2) renderNextEvent(content);
-    if (index === 3) renderSimple(content, "Coming soon...");
+    if (index === 3) renderPreviouslyEvent(content);
     if (index === 4) renderContact(content);
 }

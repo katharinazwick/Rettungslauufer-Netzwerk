@@ -1,5 +1,6 @@
 import {nextEvents} from "./nextEvents.js";
 import {renderCalendar} from "./renderCalender.js";
+import {formatDate} from "./formatDate.js";
 
 export function renderNextEvent(parent) {
 
@@ -56,7 +57,8 @@ export function renderNextEvent(parent) {
         title.textContent = event.name;
 
         const date = document.createElement("p");
-        date.innerHTML = `<strong>Wann:</strong> ${event.date}`;
+        const data = formatDate(event.date);
+        date.innerHTML = `<strong>Wann:</strong> ${data}`;
 
         const wo = document.createElement("p");
         wo.innerHTML = `<strong>Wo:</strong> ${event.wo}`;

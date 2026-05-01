@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f578d-c9c3-460a-a9b3-82db39bad79f" name="Changes" comment="render Output">
-      <change afterPath="$PROJECT_DIR$/datenschutzerklärung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact/checkContact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact/resetBorderOnInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contact/sendEmail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rettungsläufer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rettungsläufer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/loadConent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sentEmail.js" beforeDir="false" />
-    </list>
+    <list default="true" id="392f578d-c9c3-460a-a9b3-82db39bad79f" name="Changes" comment="include box" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +93,7 @@
       <workItem from="1777486474970" duration="185000" />
       <workItem from="1777486676001" duration="953000" />
       <workItem from="1777487652202" duration="200000" />
-      <workItem from="1777535633819" duration="11237000" />
+      <workItem from="1777535633819" duration="11743000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -126,7 +111,63 @@
       <option name="project" value="LOCAL" />
       <updated>1777548837749</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="generate sent email">
+      <option name="closed" value="true" />
+      <created>1777548966132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777548966132</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete">
+      <option name="closed" value="true" />
+      <created>1777549002188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549002188</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix impressum">
+      <option name="closed" value="true" />
+      <created>1777549045018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549045018</updated>
+    </task>
+    <task id="LOCAL-00006" summary="borderOutput">
+      <option name="closed" value="true" />
+      <created>1777549154675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549154675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="small style fix">
+      <option name="closed" value="true" />
+      <created>1777549223063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549223063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lint">
+      <option name="closed" value="true" />
+      <created>1777549271733</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549271733</updated>
+    </task>
+    <task id="LOCAL-00009" summary="include box">
+      <option name="closed" value="true" />
+      <created>1777549332212</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777549332212</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +203,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="render Output" />
-    <option name="LAST_COMMIT_MESSAGE" value="render Output" />
+    <MESSAGE value="generate sent email" />
+    <MESSAGE value="delete" />
+    <MESSAGE value="fix impressum" />
+    <MESSAGE value="borderOutput" />
+    <MESSAGE value="small style fix" />
+    <MESSAGE value="lint" />
+    <MESSAGE value="include box" />
+    <option name="LAST_COMMIT_MESSAGE" value="include box" />
   </component>
 </project>

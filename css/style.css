@@ -13,6 +13,7 @@ header {
     border-bottom: 3px solid red;
 }
 
+/*picture*/
 .banner {
     width: 100%;
     height: auto;
@@ -25,6 +26,7 @@ header h1 {
     border-radius: 10px;
 }
 
+/*bar with buttons*/
 nav {
     display: flex;
     justify-content: center;
@@ -49,6 +51,7 @@ nav {
     box-shadow: 0 0 10px rgba(255, 46, 99, 0.8);
 }
 
+/*big side*/
 main {
     padding: 40px;
     max-width: 100%;
@@ -64,6 +67,7 @@ h2 {
     color: #ff2e63;
 }
 
+/*contact field*/
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -102,7 +106,7 @@ h2 {
     box-shadow: 0 0 10px rgba(255, 46, 99, 0.8);
 }
 
-/*ckeckbox*/
+/*privacytext and checkbox*/
 .privacy-wrapper {
     display: flex;
     align-items: center;
@@ -121,16 +125,7 @@ h2 {
     cursor: pointer;
 }
 
-footer {
-    color: #ff2e63;
-}
-
-footer a {
-    color: #ff2e63;
-    text-decoration: none;
-}
-
-/*Kalender*/
+/*calender*/
 .calendar {
     padding: 10px;
 }
@@ -170,12 +165,14 @@ footer a {
 .calendar-header button:hover {
     background: rgba(255,255,255,0.2);
 }
+
+/*calenderwidth for laptop and media*/
 .events-left {
     flex: 1;
 }
 
 .events-right {
-    flex: 0 0 320px; /* feste Kalenderbreite */
+    flex: 0 0 320px;
 }
 @media (max-width: 768px) {
     .events-layout {
@@ -186,4 +183,14 @@ footer a {
         width: 100%;
         flex: none;
     }
+}
+
+/*footer (Impressum & Datenschutz)*/
+footer {
+    color: #ff2e63;
+}
+
+footer a {
+    color: #ff2e63;
+    text-decoration: none;
 }

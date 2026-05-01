@@ -30,7 +30,6 @@ export function renderContact(parent) {
     const label = document.createElement("label");
     label.htmlFor = "privacy";
 
-// Text + Link
     label.innerHTML = `Ich akzeptiere die 
   <a href="datenschutzerklärung.html" >Datenschutzerklärung</a>`;
 

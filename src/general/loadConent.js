@@ -9,15 +9,12 @@ export function loadContent(field) {
     const content = document.getElementById("content");
     const index = field - 1;
 
-    // vorherigen Inhalt löschen
     content.innerHTML = "";
 
-    // Überschrift
     const h2 = document.createElement("h2");
     h2.textContent = buttonNames[index];
     content.appendChild(h2);
 
-    // je nach Seite Inhalt bauen
     if (index === 0) renderAbout(content);
     if (index === 1) renderInfo(content);
     if (index === 2) renderNextEvent(content);

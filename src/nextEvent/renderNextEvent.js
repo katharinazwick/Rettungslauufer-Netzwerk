@@ -17,29 +17,23 @@ export function renderNextEvent(parent) {
             alignItems: "flex-start"
         })
 
-    // ⬅️ Linke Seite (Events)
+    // left side for events
     const left = document.createElement("div");
     left.classList.add("events-left");
     Object.assign(left.style, {
-        //flex: 1
     })
 
-    // ➡️ Rechte Seite (Kalender)
+    // right side for calender
     const right = document.createElement("div");
     right.classList.add("events-right");
-    Object.assign(right.style, {
-       // width: "320px",
-        //minWidth: "280px"
-    })
 
-    // 📅 Platzhalter Kalender
     const calendarPlaceholder = document.createElement("div");
     calendarPlaceholder.classList.add("calendar-placeholder");
     renderCalendar(right, nextEvents);
 
     right.appendChild(calendarPlaceholder);
 
-    // 🔁 Events durchgehen
+    // include all events
     nextEvents.forEach(event => {
 
         const card = document.createElement("div");
@@ -74,7 +68,6 @@ export function renderNextEvent(parent) {
         left.appendChild(card);
     });
 
-    // zusammenbauen
     wrapper.appendChild(left);
     wrapper.appendChild(right);
 

@@ -14,7 +14,7 @@ export function renderAbout(parent) {
         parent.appendChild(p);
     });
 
-    // letzter Absatz
+    // last paragraph with highlighting
     const p = document.createElement("p");
 
     p.appendChild(document.createTextNode("Vielleicht bist du dabei – und wir bauen gemeinsam ein "));

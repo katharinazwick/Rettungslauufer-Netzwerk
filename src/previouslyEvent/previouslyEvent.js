@@ -7,6 +7,12 @@ export const previouslyEvent =  [
         image: "../../css/events/platzhalter.jpg"
     },
     {
+        name: "Event 2025",
+        date: "2024-06-01",
+        wo: "...",
+        infos: "Hier ist etwas passiert das toll war",
+    },
+    {
         name: "Platzhalter",
         date: "2026-05-06",
         wo: "...",
@@ -19,5 +25,12 @@ export const previouslyEvent =  [
             "echten Leben stets ersetzt.Kein Name, nur ein Zeichen, " +
             "lautlos,Ein Warteschleifen-Stellbefehl.Ich lasse los, " +
             "bin wunschlos, drahtlos,Der leere, stumme, bunte Teil."
-    }
+    },
+    {
+        name: "Event 2025",
+        date: "2025-06-01",
+        wo: "...",
+        infos: "Hier ist etwas passiert das toll war",
+        image: "../../css/events/platzhalter2.jpg"
+    },
 ];

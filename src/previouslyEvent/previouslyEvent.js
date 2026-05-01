@@ -31,6 +31,6 @@ export const previouslyEvent =  [
         date: "2025-06-01",
         wo: "...",
         infos: "Hier ist etwas passiert das toll war",
-        image: "../../css/events/platzhalter2.jpg"
+        image: "../../css/events/patzhalter2.png"
     },
 ];

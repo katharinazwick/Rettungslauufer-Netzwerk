@@ -1,57 +1,74 @@
-import {previouslyEvent} from "./previouslyEvent.js";
+import { previouslyEvent } from "./previouslyEvent.js";
+import {groupByYear} from "./groupByYear.js";
 
 export function renderPreviouslyEvent(parent) {
 
     parent.innerHTML = "";
 
-    // 🔲 Layout Container
     const wrapper = document.createElement("div");
-    wrapper.classList.add("events-layout");
-    Object.assign(wrapper.style,
-        {
-            display: "flex",
-            flexDirection: "column",
-            gap: "20px",
-            alignItems: "flex-start"
-        })
 
-    // 🔁 Events durchgehen
-    previouslyEvent.forEach(event => {
+    const grouped = groupByYear(previouslyEvent);
 
-        const card = document.createElement("div");
-        card.classList.add("event-card");
-        card.style.border = "1px solid black";
-        Object.assign(card.style,
-            {
+    // Jahre sortieren (neu → alt)
+    const years = Object.keys(grouped).sort((a, b) => b - a);
+
+    years.forEach(year => {
+
+        // 📅 Jahr-Header
+        const yearHeader = document.createElement("h2");
+        yearHeader.textContent = year;
+        yearHeader.id = "yearHeader";
+        yearHeader.style.cursor = "pointer";
+
+        // 📦 Container für Events
+        const yearContainer = document.createElement("div");
+        yearContainer.style.display = "none"; // 👈 zuerst zu
+
+        // Klick → toggle
+        yearHeader.addEventListener("click", () => {
+            yearContainer.style.display =
+                yearContainer.style.display === "none" ? "block" : "none";
+        });
+
+        // 🔁 Events dieses Jahres
+        grouped[year].forEach(event => {
+
+            const card = document.createElement("div");
+            Object.assign(card.style, {
                 border: "1px solid red",
                 borderRadius: "10px",
-                margin: "10px",
-                padding: "10px",
-                width: "100%",
-            })
+                margin: "10px 0",
+                padding: "10px"
+            });
 
-        const title = document.createElement("h3");
-        title.textContent = event.name;
+            const title = document.createElement("h3");
+            title.textContent = event.name;
 
-        const date = document.createElement("p");
-        date.innerHTML = `<strong>Wann:</strong> ${event.date}`;
+            const date = document.createElement("p");
+            date.innerHTML = `<strong>Wann:</strong> ${event.date}`;
 
-        const wo = document.createElement("p");
-        wo.innerHTML = `<strong>Wo:</strong> ${event.wo}`;
+            const wo = document.createElement("p");
+            wo.innerHTML = `<strong>Wo:</strong> ${event.wo}`;
 
-        const infos = document.createElement("p");
-        infos.textContent = event.infos;
+            const infos = document.createElement("p");
+            infos.textContent = event.infos;
 
-        const picture = document.createElement("img");
-        picture.src = event.image;
+            card.appendChild(title);
+            card.appendChild(date);
+            card.appendChild(wo);
+            card.appendChild(infos);
 
-        card.appendChild(title);
-        card.appendChild(date);
-        card.appendChild(wo);
-        card.appendChild(infos);
-        card.appendChild(picture);
+            if(event.image) {
+                const picture = document.createElement("img");
+                picture.src = event.image;
+                card.appendChild(picture);
+            }
 
-        wrapper.appendChild(card);
+            yearContainer.appendChild(card);
+        });
+
+        wrapper.appendChild(yearHeader);
+        wrapper.appendChild(yearContainer);
     });
 
     parent.appendChild(wrapper);

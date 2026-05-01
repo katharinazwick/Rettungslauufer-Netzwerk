@@ -129,3 +129,44 @@ footer a {
     color: #ff2e63;
     text-decoration: none;
 }
+
+/*Kalender*/
+.calendar {
+    padding: 10px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+.calendar-day {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.calendar-header button {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.calendar-header button:hover {
+    background: rgba(255,255,255,0.2);
+}

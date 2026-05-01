@@ -54,15 +54,15 @@ export function renderNextEvent(parent) {
         const data = formatDate(event.date);
         date.innerHTML = `<strong>Wann:</strong> ${data}`;
 
-        const wo = document.createElement("p");
-        wo.innerHTML = `<strong>Wo:</strong> ${event.wo}`;
+        const place = document.createElement("p");
+        place.innerHTML = `<strong>Wo:</strong> ${event.place}`;
 
         const infos = document.createElement("p");
         infos.textContent = event.infos;
 
         card.appendChild(title);
         card.appendChild(date);
-        card.appendChild(wo);
+        card.appendChild(place);
         card.appendChild(infos);
 
         left.appendChild(card);

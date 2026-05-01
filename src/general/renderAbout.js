@@ -14,7 +14,7 @@ export function renderAbout(parent) {
         parent.appendChild(p);
     });
 
-    //letzter Absatz
+    // letzter Absatz
     const p = document.createElement("p");
 
     p.appendChild(document.createTextNode("Vielleicht bist du dabei – und wir bauen gemeinsam ein "));
@@ -23,11 +23,12 @@ export function renderAbout(parent) {
     strong.textContent = "Rettungsläufer Netzwerk";
 
     p.appendChild(strong);
-
     p.appendChild(document.createTextNode(" auf!"));
-//leerzeile
-    strong.textContent = "Das erste Treffen findet am 01.01.2026 statt!";
-    p.appendChild((strong));
 
     parent.appendChild(p);
+
+    const p2 = document.createElement("strong");
+    p2.textContent = "Das erste Treffen findet am 01.01.2026 statt!";
+
+    parent.appendChild(p2);
 }

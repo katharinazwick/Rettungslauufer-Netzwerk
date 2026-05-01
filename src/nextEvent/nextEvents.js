@@ -2,13 +2,13 @@ export const nextEvents = [
     {
         name: "Erstes Treffen",
         date: "2026-06-01",
-        wo: "...",
+        place: "...",
         infos: "Wir sehen uns!"
     },
     {
         name: "Platzhalter",
         date: "2026-05-06",
-        wo: "...",
+        place: "...",
         infos: "Der stille StellvertreterIch stehe hier, " +
             "nur kurz – zur Wahl,Bin füllend, doch nicht " +
             "Inhalt selbst.Ein Zwischenschritt, ein leeres " +

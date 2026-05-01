@@ -9,28 +9,27 @@ export function renderPreviouslyEvent(parent) {
 
     const grouped = groupByYear(previouslyEvent);
 
-    // Jahre sortieren (neu → alt)
+    // sort year from old to new
     const years = Object.keys(grouped).sort((a, b) => b - a);
 
     years.forEach(year => {
 
-        // 📅 Jahr-Header
+        // header
         const yearHeader = document.createElement("h2");
         yearHeader.textContent = year;
         yearHeader.id = "yearHeader";
         yearHeader.style.cursor = "pointer";
 
-        // 📦 Container für Events
+        // container for events
         const yearContainer = document.createElement("div");
         yearContainer.style.display = "none"; // 👈 zuerst zu
 
-        // Klick → toggle
+        // klick toggle for in and out
         yearHeader.addEventListener("click", () => {
             yearContainer.style.display =
                 yearContainer.style.display === "none" ? "block" : "none";
         });
 
-        // 🔁 Events dieses Jahres
         grouped[year].forEach(event => {
 
             const card = document.createElement("div");
@@ -47,15 +46,15 @@ export function renderPreviouslyEvent(parent) {
             const date = document.createElement("p");
             date.innerHTML = `<strong>Wann:</strong> ${event.date}`;
 
-            const wo = document.createElement("p");
-            wo.innerHTML = `<strong>Wo:</strong> ${event.wo}`;
+            const place = document.createElement("p");
+            place.innerHTML = `<strong>Wo:</strong> ${event.place}`;
 
             const infos = document.createElement("p");
             infos.textContent = event.infos;
 
             card.appendChild(title);
             card.appendChild(date);
-            card.appendChild(wo);
+            card.appendChild(place);
             card.appendChild(infos);
 
             if(event.image) {

@@ -2,20 +2,20 @@ export const previouslyEvent =  [
     {
         name: "Erstes Treffen",
         date: "2026-06-01",
-        wo: "...",
+        place: "...",
         infos: "Hier ist etwas passiert das toll war",
         image: "../../css/events/platzhalter.jpg"
     },
     {
         name: "Event 2025",
         date: "2024-06-01",
-        wo: "...",
+        place: "...",
         infos: "Hier ist etwas passiert das toll war",
     },
     {
         name: "Platzhalter",
         date: "2026-05-06",
-        wo: "...",
+        place: "...",
         infos: "Der stille StellvertreterIch stehe hier, " +
             "nur kurz – zur Wahl,Bin füllend, doch nicht " +
             "Inhalt selbst.Ein Zwischenschritt, ein leeres " +
@@ -29,7 +29,7 @@ export const previouslyEvent =  [
     {
         name: "Event 2025",
         date: "2025-06-01",
-        wo: "...",
+        place: "...",
         infos: "Hier ist etwas passiert das toll war",
         image: "../../css/events/patzhalter2.png"
     },

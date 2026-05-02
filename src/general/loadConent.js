@@ -1,4 +1,4 @@
-import {buttonNames} from "./buttonNames.js";
+import {buttonNames, whoWeAre} from "./buttonNames.js";
 import {renderAbout} from "./renderAbout.js";
 import {renderInfo} from "./renderInfo.js";
 import {renderNextEvent} from "../nextEvent/renderNextEvent.js";
@@ -13,6 +13,9 @@ export function loadContent(field) {
 
     const h2 = document.createElement("h2");
     h2.textContent = buttonNames[index];
+    if(index === 0){
+        h2.textContent = whoWeAre;
+    }
     content.appendChild(h2);
 
     if (index === 0) renderAbout(content);

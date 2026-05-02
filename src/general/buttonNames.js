@@ -5,3 +5,5 @@ export const buttonNames = [
     "vergangene Veranstaltungen",
     "Kontakt"
 ];
+
+export const whoWeAre = "Rettungsläufer Netzwerk";

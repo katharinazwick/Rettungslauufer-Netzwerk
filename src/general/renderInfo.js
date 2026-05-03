@@ -1,11 +1,11 @@
 export function renderInfo(parent) {
     const data = [
-        ["Wer", "Feuerwehr, Rettungsdienst & alle aus dem medizin-technischem Ehrenamt"],
-        ["Wann", "Jeden Montag um 19:00 Uhr"],
-        ["Wo", "KEINE AHNUNG"],
-        ["Wie", "Einfach vorbeikommen, idealerweise etwas früher zum Umziehen & Kennenlernen"],
-        ["Warum", "Weil Gemeinschaft, Bewegung und Austausch wichtig sind"],
-        ["Noch Fragen oder Anmerkungen", "Melde dich unter Kontakt bei mir"]
+        ["Wer", "Feuerwehr, Rettungsdienst & co, sowie alle aus dem medizinisch-technischem Ehrenamt"],
+        ["Wann", "jeden Montag um 19:00 Uhr"],
+        ["Wo", "blu - das Sportbad (genaueres unter Veranstaltungen)"],
+        ["Wie", "einfach vorbeikommen - so dass wir pünklicht los können"],
+        ["Warum", "weil Gemeinschaft, Bewegung und Austausch wichtig sind"],
+        ["Noch Fragen oder Anmerkungen", "Melde dich unter Kontakt bei mir!"]
     ];
 
     data.forEach(([title, text]) => {

@@ -1,7 +1,7 @@
 export function renderInfo(parent) {
     const data = [
         ["Wer", "Feuerwehr, Rettungsdienst & co, sowie alle aus dem medizinisch-technischem Ehrenamt"],
-        ["Wann", "noch ausstehend"],
+        ["Wann", "jeden Montag 19.30"],
         ["Wo", "blu - das Sportbad (genaueres unter Veranstaltungen)"],
         ["Wie", "einfach vorbeikommen - so dass wir pünklicht los können"],
         ["Warum", "weil Gemeinschaft, Bewegung und Austausch wichtig sind"],

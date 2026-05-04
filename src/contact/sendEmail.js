@@ -10,7 +10,7 @@ export function sendEmail(email, name, title, message) {
         title: title,
         message: message
     };
-    emailjs.send("", "", params)
+    emailjs.send("service_zms5mmi", "template_zhaxcxq", params)
         .then(() => {
             alert("Email erfolgreich gesendet!");
         })

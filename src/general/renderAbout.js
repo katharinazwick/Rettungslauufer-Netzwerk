@@ -29,7 +29,7 @@ export function renderAbout(parent) {
     parent.appendChild(p);
 
     const p2 = document.createElement("strong");
-    p2.textContent = "Das erste Treffen findet am 01. Juni 2026 statt!";
+    p2.textContent = "Das erste Treffen findet am xx. Juni 2026 statt!";
 
     parent.appendChild(p2);
 }

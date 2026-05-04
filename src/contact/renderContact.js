@@ -6,15 +6,15 @@ export function renderContact(parent) {
 
     const email = document.createElement("input");
     email.type = "email";
-    email.placeholder = "Deine Email";
+    email.placeholder = "Deine Email *";
 
     const name = document.createElement("input");
     name.type = "name";
-    name.placeholder = "Dein Name";
+    name.placeholder = "Dein Name *";
 
     const title = document.createElement("input");
     title.type = "text";
-    title.placeholder = "Betreff";
+    title.placeholder = "Betreff *";
 
     const message = document.createElement("textarea");
     message.placeholder = "Deine Nachricht...";

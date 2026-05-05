@@ -25,6 +25,5 @@ export function loadContent(field, addToHistory = true) {
     if (index === 0) renderAbout(content);
     if (index === 1) renderInfo(content);
     if (index === 2) renderNextEvent(content);
-    if (index === 3) renderSimple(content, "Coming soon...");
-    if (index === 4) renderContact(content);
+    if (index === 3) renderContact(content); //later index 4
 }

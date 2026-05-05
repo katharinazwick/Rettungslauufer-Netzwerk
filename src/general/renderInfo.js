@@ -2,10 +2,10 @@ export function renderInfo(parent) {
     const data = [
         ["Wer", "Feuerwehr, Rettungsdienst & co, sowie alle aus dem medizinisch-technischem Ehrenamt"],
         ["Wann", "jeden Montag 19.30"],
-        ["Wo", "blu - das Sportbad (genaueres unter Veranstaltungen)"],
+        ["Wo", "Blu - das Sportbad, Potsdam"],
         ["Wie", "einfach vorbeikommen - so dass wir pünklicht los können"],
         ["Warum", "weil Gemeinschaft, Bewegung und Austausch wichtig sind"],
-        ["Noch Fragen oder Anmerkungen", "Melde dich unter Kontakt bei mir!"]
+        ["Noch Fragen, Anmerkungen oder eigene Ideen:", "Melde dich unter Kontakt bei mir!"]
     ];
 
     data.forEach(([title, text]) => {

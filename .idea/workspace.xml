@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f578d-c9c3-460a-a9b3-82db39bad79f" name="Changes" comment="fit design on calender">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/general/renderAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/renderAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nextEvent/renderNextEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextEvent/renderNextEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nextEvent/nextEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextEvent/nextEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/previouslyEvent/previouslyEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/previouslyEvent/previouslyEvent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,65 @@
     &quot;accountId&quot;: &quot;1a0e9449-bbac-42fb-8954-185390f3bd41&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000325024274532" />
+      <entry key="MS500" value="1.314226128534353" />
+      <entry key="S2" value="3.593034563898238" />
+      <entry key="S5" value="6.006516178015574" />
+      <entry key="S10" value="7.789347059341218" />
+      <entry key="S30" value="10.760823770829912" />
+      <entry key="S60" value="18.71368110293987" />
+      <entry key="M2" value="38.4213758958368" />
+      <entry key="M5" value="69.8853265355516" />
+      <entry key="M10" value="87.26124670656424" />
+      <entry key="M15" value="94.16893649686777" />
+      <entry key="M30" value="101.72711505835443" />
+      <entry key="H1" value="105.76995464185673" />
+      <entry key="H2" value="107.861020307433" />
+      <entry key="H4" value="108.9244498564618" />
+      <entry key="D1" value="109.81989383335274" />
+      <entry key="W1" value="109.97424970489469" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9268851062072769" />
+      <entry key="MS500" value="1.2943861195109352" />
+      <entry key="S2" value="3.5810957160483783" />
+      <entry key="S5" value="5.998648188307072" />
+      <entry key="S10" value="7.784093208176716" />
+      <entry key="S30" value="10.758267772567367" />
+      <entry key="S60" value="18.711456757797553" />
+      <entry key="M2" value="38.41910157316754" />
+      <entry key="M5" value="69.88366299747544" />
+      <entry key="M10" value="87.26020422809448" />
+      <entry key="M15" value="94.16818538301999" />
+      <entry key="M30" value="101.72670870961561" />
+      <entry key="H1" value="105.76974321487853" />
+      <entry key="H2" value="107.86091245740559" />
+      <entry key="H4" value="108.92439538787451" />
+      <entry key="D1" value="109.8198846789447" />
+      <entry key="W1" value="109.97424839524244" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -61,7 +120,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "01-nextEvent",
+    "git-widget-placeholder": "02-previouslyEvent",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/Users/katharinazwick/code/rettungsläufer",
     "list.type.of.created.stylesheet": "CSS",

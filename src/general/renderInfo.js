@@ -5,7 +5,7 @@ export function renderInfo(parent) {
         ["Wo", "vor dem Blu - das Sportbad, Potsdam"],
         ["Wie", "einfach vorbeikommen - so dass wir pünklicht los können"],
         ["Warum", "weil Gemeinschaft, Bewegung und Austausch wichtig sind"],
-        ["Noch Fragen, Anmerkungen oder eigene Ideen:", "Melde dich unter Kontakt bei mir!"]
+        ["Noch Fragen, Anmerkungen oder eigene Ideen:", "Melde dich unter Kontakte bei mir!"]
     ];
 
     data.forEach(([title, text]) => {

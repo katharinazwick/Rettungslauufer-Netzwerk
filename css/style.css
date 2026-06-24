@@ -185,6 +185,28 @@ h2 {
     }
 }
 
+/*sortbyyear*/
+/*h2 {
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+h2:hover {
+    background: rgba(255,255,255,0.1);
+}*/
+#yearHeader {
+    padding: 10px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#yearHeader:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
 /*footer (Impressum & Datenschutz)*/
 footer {
     color: #ff2e63;

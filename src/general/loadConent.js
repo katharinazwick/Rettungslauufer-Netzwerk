@@ -1,10 +1,10 @@
-import {buttonNames, whoWeAre} from "./buttonNames.js";
+import {buttonNames} from "./buttonNames.js";
 import {renderAbout} from "./renderAbout.js";
 import {renderInfo} from "./renderInfo.js";
 import {renderNextEvent} from "../nextEvent/renderNextEvent.js";
-import {renderSimple} from "../previouslyEvent/renderSimple.js";
 import {renderContact} from "../contact/renderContact.js";
 import {routes} from "./routeMapping.js";
+import {renderPreviouslyEvent} from "../previouslyEvent/renderSimple.js";
 
 export function loadContent(field, addToHistory = true) {
     const content = document.getElementById("content");
@@ -25,5 +25,6 @@ export function loadContent(field, addToHistory = true) {
     if (index === 0) renderAbout(content);
     if (index === 1) renderInfo(content);
     if (index === 2) renderNextEvent(content);
-    if (index === 3) renderContact(content); //later index 4
+    if (index === 3) renderPreviouslyEvent(content);
+    if (index === 4) renderContact(content); //later index 4
 }

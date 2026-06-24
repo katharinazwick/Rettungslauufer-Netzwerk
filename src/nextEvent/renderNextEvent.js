@@ -55,8 +55,7 @@ export function renderNextEvent(parent) {
         date.innerHTML = `<strong>Wann:</strong> ${data}`;
 
         const place = document.createElement("p");
-        place.innerHTML = `<strong>Wo:</strong> ${event.place}`;
-
+        wo.innerHTML = `<strong>Wo:</strong> ${event.place}`;
         const infos = document.createElement("p");
         infos.textContent = event.infos;
 

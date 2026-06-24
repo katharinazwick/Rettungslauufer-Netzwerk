@@ -1,4 +1,4 @@
-import { previouslyEvent } from "./previouslyEvent.js";
+import {previouslyEvent} from "./previouslyEvent.js";
 import {groupByYear} from "./groupByYear.js";
 
 export function renderPreviouslyEvent(parent) {
@@ -22,7 +22,9 @@ export function renderPreviouslyEvent(parent) {
 
         // container for events
         const yearContainer = document.createElement("div");
-        yearContainer.style.display = "none"; // 👈 zuerst zu
+        if (year !== "2026") {
+            yearContainer.style.display = "none";
+        }
 
         // klick toggle for in and out
         yearHeader.addEventListener("click", () => {
@@ -57,7 +59,7 @@ export function renderPreviouslyEvent(parent) {
             card.appendChild(place);
             card.appendChild(infos);
 
-            if(event.image) {
+            if (event.image) {
                 const picture = document.createElement("img");
                 picture.src = event.image;
                 card.appendChild(picture);

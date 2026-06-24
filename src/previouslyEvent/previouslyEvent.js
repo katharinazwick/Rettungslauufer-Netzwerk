@@ -5,6 +5,6 @@ export const previouslyEvent =  [
         place: "vor dem Blue - das Sportbad, Potsdam",
         infos: "Bei leicht windigem, aber gutem Wetter haben wir mit einer überschaubaren Gruppe den ersten Lauf gewagt." +
             " Über 7,07km und 41min ging es einmal um Hermannswerder.",
-        image: "../../css/events/firstVisit.PNG"
+        image: "../../css/firstVisit.PNG"
     },
 ];

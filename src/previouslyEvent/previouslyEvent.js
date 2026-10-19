@@ -8,3 +8,4 @@ export const previouslyEvent =  [
         image: "../../css/firstVisit.PNG"
     },
 ];
+
